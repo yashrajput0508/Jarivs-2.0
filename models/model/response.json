@@ -1,0 +1,113 @@
+{"intents": [
+  {
+  "tag": "greet",
+  "patterns": ["wake up"],
+  "responses": ["Jarvis at your service, sir"]
+},
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello, sir Jarvis at your service"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, sir", "Have a nice day, sir", "Bye! Come back again,sir"]
+    },{
+    "tag":"fine",
+    "patterns": ["how are you"],
+    "responses": ["I am fine, sir"]
+  },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help! sir", "Any time! sir", "My pleasure sir", "You're most welcome! sir"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm Jarvis, an Artificial Intelligent virtual assistant"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Jarvis, sir."]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you, sir", "Tell me your problem to assist you, sir", "Yes Sure, How can I support you,sir"]
+    },{
+    "tag": "help2",
+    "patterns": ["What can you do for me?"],
+    "responses": ["I can do anything for you, sir"]
+  },{
+    "tag": "time",
+    "patterns": ["time","current time","what is the time","what is the current time","what is the todays time","What is the time"],
+    "responses": ["The current time is: @time"]
+  },{
+    "tag": "date",
+    "patterns": ["date","current date","what is the date","what is the current date","what is the todays date","What is the date"],
+    "responses": ["@date"]
+  },{
+    "tag": "day",
+    "patterns": ["day","current day","what is the day","what is the current day","what is the todays day","What is the day"],
+    "responses": ["@day"]
+  },{
+    "tag": "covid",
+    "patterns": ["covid-19 update","what is the covid-19 update"],
+    "responses": ["@covid"]
+  },{
+    "tag": "reading",
+    "patterns": ["read the text","read the copy text"],
+    "responses": ["@read"]
+  },{
+    "tag": "screenshot",
+    "patterns": ["take a screenshot","screenshot"],
+    "responses": ["@screenshot"]
+  },{
+    "tag": "send_email",
+  "patterns": ["send email"],
+  "responses": ["@email"]
+  },{
+    "tag": "joke",
+    "patterns": ["joke","tell me a joke"],
+    "responses": ["@joke"]
+  },{
+    "tag": "wikipedia",
+    "patterns": ["search on wikipedia"],
+    "responses": ["@wikipedia"]
+  },{
+    "tag": "google",
+    "patterns": ["search on google","google"],
+    "responses": ["@google"]
+  },
+  {
+    "tag": "open",
+    "patterns": ["open"],
+    "responses": ["@open"]
+  },{
+    "tag": "update",
+  "patterns": ["update model"],
+    "responses": ["$update"]
+  },{
+    "tag": "close",
+    "patterns": ["close"],
+    "responses": ["@close"]
+  },{
+    "tag": "shutdown",
+    "patterns": ["shutdown","shutdown pc","shutdown window"],
+    "responses": ["@shutdown"]
+  },{
+    "tag": "restart",
+    "patterns": ["restart","restart pc","restart window"],
+    "responses": ["@restart"]
+  },{
+    "tag": "introduction",
+    "patterns": ["introduction","introduce yourself"],
+    "responses": ["@introduction"]
+  },{
+    "tag": "sleep",
+    "patterns": ["sleep mode","go to sleep"],
+    "responses": ["#sleep"]
+  },{
+    "tag": "whatsapp",
+    "patterns": ["send a message","send message","send whatsapp"],
+    "responses": ["@whatsapp"]
+  }
+]
+}
