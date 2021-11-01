@@ -9,4 +9,6 @@ a:- Python
 b:- Keras
 c:- SQL
 d:- CNN models
+e:- Speech Recognition
+f:- Pyaudio
 ```
